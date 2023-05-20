@@ -5,12 +5,19 @@
   "dependencies": {
     "@testing-library/jest-native": "*",
     "@testing-library/react-native": "*",
-    "react-native": "*",
+    "react-native": "0.71.3",
     "expo": "*",
-    "react-native-svg": "*",
-    "react-native-web": "*"
+    "react-native-svg": "13.4.0",
+    "react-native-web": "~0.18.11",
+    "react": "18.2.0",
+    "expo-router": "*",
+    "native-base": "*",
+    "@expo/vector-icons": "*",
+    "@nrwl/expo": "*",
+    "@expo/metro-config": "*"
   },
   "scripts": {
-    "postinstall": "rm -r node_modules && cd ../../ && yarn install && npx nx sync-deps my-pet-buddy && npx nx ensure-symlink my-pet-buddy"
+    "postinstall": "rm -r node_modules && cd ../../ && yarn install && npx nx sync-deps my-pet-buddy && npx nx ensure-symlink my-pet-buddy",
+    "build": "npx expo export:web"
   }
 }

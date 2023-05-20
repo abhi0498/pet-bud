@@ -1,0 +1,5 @@
+//ignore all node_modules
+node_modules/
+*.log
+*/node_modules
+apps/*/node_modules
