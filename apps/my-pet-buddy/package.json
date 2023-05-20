@@ -1,6 +1,7 @@
 {
   "name": "my-pet-buddy",
   "version": "0.0.1",
+  "homepage": "http://abhi0498.github.io/pet-bud",
   "private": true,
   "dependencies": {
     "@testing-library/jest-native": "*",
